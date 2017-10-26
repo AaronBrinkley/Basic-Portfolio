@@ -1,7 +1,7 @@
 body {
 	margin-left: 50px ;
 	margin-right: 50px ;
-	background: #e6e6e6 ;
+	background: url("https://i.imgur.com/PTkqTEo.png");
 	font-family: Arial ;
 	width: 960px
 	color: #777777 ;
@@ -10,10 +10,15 @@ body {
 
 
 #BigMain {
-	background: #ffffff ;
 	margin-top: 100px ;
-	width: 650px ;
+	width: 960px ;
 	height: 40% ;
+	margin-left: 0px ;
+	margin-right: 0px ;
+	padding: 10px ;
+	float: left;
+
+
 }
 
 #Name {
@@ -30,6 +35,7 @@ li {
 	margin-left: 15px ;
 	list-style: none ;
 	bottom: 0 ;
+	padding-top: 15px ;
 }
 
 #Header {
@@ -46,6 +52,11 @@ li {
 #Side {
 	float: right ;
 	background: #ffffff ;
+	text-align: center ;
+	margin-left: 0px ;
+	top: 0 ;
+	width: 270px ;
+
 }
 
 p {
@@ -55,7 +66,8 @@ p {
 
 img {
 	float: left ;
-	margin-right: 20px
+	margin-right: 20px ;
+	padding-top: 15px ;
 }
 
 h1 {
@@ -64,7 +76,7 @@ h1 {
 	padding-right: 5px ;
 }
 
-#BigMain h1 {
+#Boutme {
 	border-bottom: 4px solid #cccccc ;
 }
 
@@ -101,6 +113,7 @@ div.gallery:hover {
 
 form {
 	background: #ffffff ;
+	margin-top: 10px ;
 }
 
 #Sub {
@@ -111,5 +124,24 @@ form {
 .class {
 	background: #ffffff ;
 }
+
+#MainWrap {
+	width: 650px ;
+	background: #ffffff ;
+	float: left;
+	padding: 10px ;
+	height: 530px ;
+}
+
+input {
+	background: #ffffff ;
+}
+
+#Msg {
+	background: #ffffff ;
+}
+
+
+
 
 
